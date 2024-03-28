@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    gap: 10vh;
+    overflow-x: hidden;
+}
+
+html{
+    background: rgba(67, 104, 85, 0.826);
+}
+
+#img{
+    height: 600px;
+    border-radius: 3%;
+    border: 5px solid black
+}
+
+#ul{
+    height: 100px;
+    border-radius: 13%;
+    border: 5px solid black
+}
+
+.matriz{
+    text-indent: 50px;
+    width: 400px;
+    height: 300px;
+    border-radius: 5%;
+    border: 3px solid black
+}
